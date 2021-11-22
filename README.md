@@ -20,7 +20,7 @@ limitations under the License.
 
 # Logistic Random Numbers
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Create a [readable stream][readable-stream] for generating pseudorandom numbers drawn from a [logistic][logistic] distribution.
 
@@ -551,8 +551,8 @@ $ random-logistic 0.0 1.0 -n 10 --seed 1234
 
 ## See Also
 
--   [`@stdlib/random/base/logistic`][@stdlib/random/base/logistic]: logistic distributed pseudorandom numbers.
--   [`@stdlib/random/iter/logistic`][@stdlib/random/iter/logistic]: create an iterator for generating pseudorandom numbers drawn from a logistic distribution.
+-   <span class="package-name">[`@stdlib/random/base/logistic`][@stdlib/random/base/logistic]</span><span class="delimiter">: </span><span class="description">logistic distributed pseudorandom numbers.</span>
+-   <span class="package-name">[`@stdlib/random/iter/logistic`][@stdlib/random/iter/logistic]</span><span class="delimiter">: </span><span class="description">create an iterator for generating pseudorandom numbers drawn from a logistic distribution.</span>
 
 </section>
 
@@ -603,8 +603,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/random-streams-logistic/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/random-streams-logistic?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/random-streams-logistic.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/random-streams-logistic/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
